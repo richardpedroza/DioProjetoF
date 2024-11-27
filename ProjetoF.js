@@ -33,12 +33,4 @@ for (i = 0; i < 15; i++){
         default:
             rank = "Radiante";
             break;}
-
-//console
-console.log ("batalha " + (i + 1) + ":")
-console.log ("XP do monstro " + nivelMonstro)
-console.log ("Nivel do Monstro " + nivelMonstro)
-console.log (heroi + " adquiriu " + xpAdquirido)
-console.log ("XP total Acumulado " + faixa + "\n")
-console.log ("Apos varias batalhas, " + heroi + " acumulou " + xpTotal + " Experiencia assim chegando ao Rank " + rank);
     }
