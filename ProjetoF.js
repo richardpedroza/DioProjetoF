@@ -1,7 +1,7 @@
 const heroi = "SrDavos"
-let = xpTotal = 0
+let xpTotal = 0
 for (i = 0; i < 15; i++){
-    let xpMonstro = Math.floor(Math.random() * 1000); 
+    let xpMonstro = Math.floor(Math.random() * 100); 
     let nivelMonstro = Math.floor(Math.random() * 100);
     // calculo
     let xpAdquirido = (xpMonstro * nivelMonstro) / 2;
@@ -33,4 +33,11 @@ for (i = 0; i < 15; i++){
         default:
             rank = "Radiante";
             break;}
+            // Saída do resultado da batalha
+    console.log("Batalha " + (i + 1) + ":");
+    console.log("XP do monstro: " + xpMonstro);
+    console.log("Nível do monstro: " + nivelMonstro);
+    console.log(heroi + " adquiriu " + xpAdquirido.toFixed(2) + " de experiência!");
+    console.log("XP total acumulado: " + xpTotal.toFixed(2));
+    console.log("Classificação atual do : " + heroi + " é " + rank + " \n");
     }
