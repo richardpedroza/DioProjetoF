@@ -39,5 +39,5 @@ for (i = 0; i < 15; i++){
     console.log("Nível do monstro: " + nivelMonstro);
     console.log(heroi + " adquiriu " + xpAdquirido.toFixed(2) + " de experiência!");
     console.log("XP total acumulado: " + xpTotal.toFixed(2));
-    console.log("Classificação atual do : " + heroi + " é " + rank + " \n");
+    console.log("Classificação atual do : " + heroi + " é " + rank);
     }
